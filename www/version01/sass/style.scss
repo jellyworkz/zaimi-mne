@@ -221,19 +221,6 @@ div{margin:auto;}
 /*=========== slider ===========*/
 .list_carousel {
     position: relative;
-    #foo2 > div {
-            width: 100%;
-            height: auto;
-            padding: 0;
-            display: block;
-            float: left;
-            position: relative;
-            img.slide {
-                width: 100%;
-                display: block;
-                height: auto;
-                visibility: hidden;
-            }
             .foo-wrap {
                 width: 100%;
                 position: absolute;
@@ -256,7 +243,21 @@ div{margin:auto;}
                         }    
                     }
                 }
+    #foo2 > div {
+            width: 100%;
+            height: auto;
+            padding: 0;
+            display: block;
+            float: left;
+            position: relative;
         }  
+            img.slide {
+                width: 100%;
+                display: block;
+                height: auto;
+                visibility: hidden;
+            float: left;
+            }
     .pager2 {
         margin: auto;
         text-align: center;
